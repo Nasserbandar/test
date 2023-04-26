@@ -1,0 +1,40 @@
+/*Lap1 Nasser Bandar Alshehri 2040209*/
+body     { font-family: Verdana ;color: #330000;background-color: #ffffcc; }
+header {background-color: #ccaa66;
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    }
+footer {
+    background-color: #ccaa66;
+    border-top-style: double;
+    border-bottom-style: double;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+  }
+  #leftcolumn {
+    width: 150px;
+    float: left;
+    padding-top:10px
+  }
+  .stylemenu { text-decoration:none; margin: 10px; display:block; background-color: #E8D882;
+}
+  #rightcolumn {
+    background-color: #f1e8b0;
+    margin-left:150px;
+    padding:10px
+    
+  }
+  .Pic {
+    padding-left:40px;
+    float:right;
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="hi"] {
+      width: 100%;
+    }
+  }
+  
